@@ -1,34 +1,87 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
+```
+# Android build artifacts
 *.apk
-output-metadata.json
+*.aar
+*.aab
+*.ap_
+*.dex
 
-# IntelliJ
-*.iml
+# Android generated files
+build/
+.externalNativeBuild/
+.gradle/
+
+# Android local configurations
+local.properties
+.keyStore
+
+# IDE files
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.iml
+*.ipr
+*.iws
+.vscode/
 
-# Keystore files
-*.jks
+# Compilation and build outputs
+*.class
+*.jar
+*.war
+*.ear
+*.so
+*.dylib
+*.dll
+*.exe
+*.o
+*.obj
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+ENV/
+
+# Logs
+*.log
+.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.properties
+
+# Android specific
+captures/
 *.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+*.jks
+```
